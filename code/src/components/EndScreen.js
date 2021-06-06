@@ -8,7 +8,7 @@ export const EndScreen = () => {
     const onReset = () => {
         dispatch(game.actions.setResetGame());
       };
-    return (    
+    return(
         <>
             <h1 className="nes-balloon is-dark from-right nes-pointer nes-text is-success">
                 Congratulations you finished the game!!!

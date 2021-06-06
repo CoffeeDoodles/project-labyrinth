@@ -6,7 +6,7 @@ import game from "./reducers/game";
 import Game from "./components/Game";
 
 const reducer = combineReducers({
-  game: game.reducer,
+  game: game.reducer
 });
 
 const store = configureStore({ reducer });
